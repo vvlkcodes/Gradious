@@ -1,3 +1,4 @@
+
 # ⭐ Gradious Apprenticeship Code Repository
 
 This is my official **Gradious Apprenticeship** code repository, containing all programs I write during my training on the **Gradious platform**.
@@ -19,17 +20,44 @@ All programs written during Gradious training sessions are uploaded here regular
 
 ---
 
-## 📂 What This Repository Contains
+## 📂 Topics Covered So Far
 
-The repository includes code from the following topics taught so far on the Gradious platform:
+The repository includes programs from the following topics taught on the Gradious platform:
 
-* **Arrays**
-* **Iterations (Loops)**
-* **Strings**
-* **Patterns**
-* **Series**
+### 🧠 Core Programming Concepts
 
-Each week’s session is uploaded with properly structured folders for easy reference.
+* **Basics** – Input/Output, data types, operators
+* **Conditional Statements** – `if`, `if-else`, `switch`
+* **Functions / Methods** – Writing reusable logic
+
+### 🔁 Control Flow
+
+* **Iterations (Loops)** – `for`, `while`, `do-while`, nested loops
+
+### 🧩 Data Handling
+
+* **Arrays** – Creation, traversal, searching, updating
+* **Strings** – String manipulation and common problems
+
+### 🌀 Recursion
+
+* Solving problems using recursive functions
+* Understanding base cases and recursive flow
+* Examples like factorial, Fibonacci, reversing, etc.
+
+### 🏗️ Object-Oriented Programming (OOP)
+
+* Classes and Objects
+* Encapsulation (getters/setters)
+* Inheritance
+* Method Overriding
+* Polymorphism
+* Real-world modeling using classes
+
+### 🎯 Problem Solving
+
+* **Patterns** – Star, number, and pyramid patterns
+* **Series** – Arithmetic, geometric, and custom number series
 
 ---
 
@@ -44,39 +72,18 @@ Gradious-Apprenticeship/
 │   ├── Session-1/
 │   └── Session-2/
 └── Topics/
+    ├── Basics/
     ├── Arrays/
     ├── Iterations/
     ├── Strings/
+    ├── Recursion/
+    ├── OOPS/
     ├── Patterns/
     └── Series/
 ```
 
 * Weekly folders store session-wise practice codes.
 * The **Topics** folder contains categorized programs for quick revision.
-
----
-
-## 🧠 Topics Covered So Far
-
-### ✅ Arrays
-
-Programs based on array creation, traversal, searching, updating, and related problems.
-
-### ✅ Iterations (Loops)
-
-For-loops, while-loops, nested loops, and iteration-based problem solving.
-
-### ✅ Strings
-
-String manipulation, character operations, parsing, and common string problems.
-
-### ✅ Patterns
-
-Pattern printing using loops (stars, numbers, pyramids, sequences, etc.)
-
-### ✅ Series
-
-Generating mathematical and logic-based series (AP, GP, and custom sequences).
 
 ---
 
