@@ -23,16 +23,28 @@ public class Main
 	}
 	
 	static void push(int[] arr, int i){
+	    if(t>arr.length){
+	        System.out.println("The stack is full");
+	        return;
+	    }
 	    System.out.println("The element "+i+" is pushed into the stack!");
 	    arr[++t] = i;
 	}
 	
 	static void pop(int[] arr){
+	    if(t<=0){
+	        System.out.println("The stack is empty");
+	        return;
+	    }
 	    System.out.println("The element is "+arr[t]+" popped out!");
         --t;
 	}
 	
 	static void print(int[] arr){
+	    if(t<=0){
+	        System.out.println("The stack is empty");
+	        return;
+	    }
 	    System.out.println("The elements of the stack are: ");
 	    for(int i=0;i<=t;i++){
 	        System.out.print(arr[i]+" ");
